@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-image: url(./image/social1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card-container{
+    backdrop-filter: blur(80px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.37);
+    border-radius: none;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 2rem 0;
+    padding-bottom: 100em;
+    width: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #b3e9fd; */
+}
+
+.post{
+    font-size: 1em;
+    position: relative;
+    right: 0.1rem;
+    color: white;
+    background-color: #D6A945;
+    border-radius: 5px;
+    border-style: none;
+    padding: 7px 25px;
+    cursor: pointer;
+}

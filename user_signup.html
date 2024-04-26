@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN-UP</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="signup">
+      <div class="head">
+        <img
+          src="https://mateuspntx.github.io/templates/login-page/i/telescope.png"
+        />
+        <h1 class="company">PenVibes</h1>
+      </div>
+      <p class="msg">Please SIGN-UP</p>
+      <div class="form">
+        <form action="signup_suc.jsp" method=post>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            class="text"
+	    name="uname"
+            required
+          /><br />
+          <input
+            type="date"
+            placeholder="Date of Birth"
+            class="date"
+	    name="dt"
+            required
+          /><br />
+          <input
+            type="email"
+            placeholder="Email"
+            class="email"
+	    name="email"
+            required
+          /><br />
+          <input
+            type="tel"
+            placeholder="Phone Number"
+            class="phno"
+	    name="tn"
+            required
+          /><br />
+          <input
+            type="password"
+            placeholder="Password"
+	    name="passwd"
+            class="password"
+          /><br />
+          <input
+            type="password"
+            placeholder="Conform Password"
+	    name="cpassword"
+            class="cpassword"
+          /><br />
+          <input type="submit" value="SIGN-UP" class="btn-signup" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
